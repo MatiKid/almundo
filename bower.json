@@ -1,0 +1,22 @@
+{
+  "name": "almundo-examen",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Matias Cao <caomatias@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "registry": "https://bower.herokuapp.com",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.5"
+  }
+}
