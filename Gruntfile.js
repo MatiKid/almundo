@@ -8,6 +8,8 @@ module.exports = function(grunt) {
             views: {
               files: [
                 {expand: true, cwd: 'app/', src: ['views/**/*.html'], dest: 'dist/'},
+                // REMOVER
+                {expand: true, cwd: 'app/scripts/services/', src: ['*.json'], dest: 'dist/scripts/'},
               ],
             },
           },

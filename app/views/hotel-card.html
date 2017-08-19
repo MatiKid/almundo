@@ -1,0 +1,21 @@
+<div class="row hotel-card">
+    <div class="col-md-4 col-sm-4">
+        <div ng-if="hotel.recommended">¡Hotel recomendado!</div>
+        <img ng-src="{{ hotel.images[0].url }}" alt="" class="img-responsive">
+    </div>
+
+    <div class="col-md-5 col-sm-5">
+        <h3>{{ hotel.name }}</h3>
+        <i class="fa fa-star" aria-hidden="true" ng-repeat="star in stars track by $index"></i>
+        <p ng-if="hotel.rate.meal_plan.code === 'ROOM_ONLY'"><i class="fa fa-bed" aria-hidden="true"></i> Solo habitación</p>
+        <i ng-repeat="amenity in hotel.amenities" ng-if="amenitiesIconMap[amenity.code]" ng-class="'fa ' + amenitiesIconMap[amenity.code]"></i>
+    </div>
+
+    <div class="col-md-3 col-sm-3">
+        <small>Precio por noche por habitación</small>
+        <p class="price">{{ hotel.rate.price.currency.code }} {{ hotel.rate.price.per_night }}</p>
+        <small>Impuestos y tasas no incluidos</small>
+        <button class="btn btn-default view-hotel-btn" href="#">Ver Hotel</button>
+        <p ng-repeat="method in hotel.payment_methods">{{ method.description }}</p>
+    </div>
+</div>

@@ -1,3 +1,16 @@
-h1 {
-    color: blue;
+.hotel-card {
+    background-color: #fff;
+    height: 200px;
+    padding: 8px;
+    box-shadow: 0px 1px 3px 0px rgba(119, 119, 119, 0.3);
+    margin-bottom: 16px;
+}
+
+.hotel-card .price {
+    color: #DF6800;
+    font-size: 2rem;
+}
+
+.hotel-card .view-hotel-btn {
+    display: block;
 }

@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('almundo', []);
+var app = angular.module('almundo', []);

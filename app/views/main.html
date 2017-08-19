@@ -1,0 +1,9 @@
+<div class="container" ng-controller="MainCtrl">
+    <div class="col-md-4 col-sm-4">
+        <hotel-filters hotels="hotels" hotels-cache="hotelsCache"></hotel-filters>
+    </div>
+
+    <div class="col-md-8 col-sm-8">
+        <hotel-card hotel="hotel" ng-repeat="hotel in hotels"></hotel-card>
+    </div>
+</div>
