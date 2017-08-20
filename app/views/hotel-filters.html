@@ -8,7 +8,7 @@
             <div class="form-group">
                 <input type="text" class="form-control" id="hotelFilterByName" placeholder="Ingrese nombre del hotel" ng-model="hotelNameSearch">
             </div>
-            <button class="btn btn-default" ng-click="searchHotelByName(hotelNameSearch)">Aceptar</button>
+            <button class="btn btn-default" ng-click="applyFilters(hotelNameSearch)">Aceptar</button>
         </form>
     </div>
 
@@ -18,22 +18,13 @@
         <form class="form-horizontal">
                 <div class="checkbox">
                     <label>
-                    <input type="checkbox" ng-model="stars.all" ng-click="filterHotelsByStars(true)"> Todas las estrellas
+                    <input type="checkbox" ng-model="stars.all" ng-click="applyFilters()"> Todas las estrellas
                     </label>
                 </div>
                 <div class="checkbox">
                     <label>
-                    <input type="checkbox" ng-model="stars.five" ng-click="filterHotelsByStars()"> 
+                    <input type="checkbox" ng-model="stars.five" ng-click="applyFilters()"> 
                     <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    </label>
-                </div>
-                <div class="checkbox">
-                    <label>
-                    <input type="checkbox" ng-model="stars.four" ng-click="filterHotelsByStars()"> 
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -42,7 +33,16 @@
                 </div>
                 <div class="checkbox">
                     <label>
-                    <input type="checkbox" ng-model="stars.three" ng-click="filterHotelsByStars()"> 
+                    <input type="checkbox" ng-model="stars.four" ng-click="applyFilters()"> 
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                    <input type="checkbox" ng-model="stars.three" ng-click="applyFilters()"> 
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -50,18 +50,25 @@
                 </div>
                 <div class="checkbox">
                     <label>
-                    <input type="checkbox" ng-model="stars.two" ng-click="filterHotelsByStars()"> 
+                    <input type="checkbox" ng-model="stars.two" ng-click="applyFilters()"> 
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
                     </label>
                 </div>
                 <div class="checkbox">
                     <label>
-                    <input type="checkbox" ng-model"stars.one" ng-click="filterHotelsByStars()"> 
+                    <input type="checkbox" ng-model"stars.one" ng-click="applyFilters()"> 
                     <i class="fa fa-star" aria-hidden="true"></i>
                     </label>
                 </div>
         </form>
     </div>
+
+            <p>
+            <label for="amount">Price range:</label>
+            <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+          </p>
+           
+          <div id="slider-range"></div>
 
 </div>

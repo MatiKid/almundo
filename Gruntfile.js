@@ -109,11 +109,9 @@ module.exports = function(grunt) {
                 'css': 'dist/styles/vendo.css'
               },
               mainFiles: {
-                'bootstrap': 'dist/css/bootstrap.min.css'
+                'bootstrap': 'dist/css/bootstrap.min.css',
+                'jquery-ui': ['jquery-ui.min.js', 'themes/base/jquery-ui.min.css']
               },
-              exclude: [
-
-              ],
               dependencies: {
 
               },
