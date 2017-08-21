@@ -10,22 +10,25 @@ app.directive('hotelFilters', [function() {
             var lastSearchTerm = 'a';
 
             $scope.applyFilters = function(searchTerm) {
-                var filteredHotels = [];
+                var filteredHotels = $scope.hotelsCache;
 
-                filterHotelsByStars();
-                searchHotelByName(searchTerm);
-            }
+                filteredHotels = searchHotelByName(filteredHotels, searchTerm);
+                filteredHotels = filterHotelsByStars(filteredHotels);
+                filteredHotels = filterHotelsByPriceRange(filteredHotels);
 
-           var searchHotelByName = function(searchTerm) {
+                $scope.hotels = filteredHotels;
+                console.log($scope.hotels);
+            };
+
+           var searchHotelByName = function(hotelsToFilter, searchTerm) {
                 lastSearchTerm = searchTerm !== undefined ? searchTerm : lastSearchTerm;
 
-                // $scope.hotels = $filter('filter')($scope.hotelsCache, { name: lastSearchTerm });
-                return $filter('filter')($scope.hotelsCache, { name: lastSearchTerm });
+                return $filter('filter')(hotelsToFilter, { name: lastSearchTerm });
             }
 
             $scope.stars = {all: true, five: false, four: false, three: false, two: false, one: false};
 
-            var filterHotelsByStars = function() {
+            var filterHotelsByStars = function(hotelsToFilter) {
                 var starsArr = [];
 
                 if ($scope.stars.all) {
@@ -39,27 +42,58 @@ app.directive('hotelFilters', [function() {
                     }
                 }
 
-                // $scope.hotels = $filter('byStars')($scope.hotelsCache, starsArr);
-                return $filter('filter')($scope.hotelsCache, { name: lastSearchTerm });
+                return $filter('byStars')(hotelsToFilter, starsArr);
+            };
+
+            var filterHotelsByPriceRange = function(hotelsToFilter) {
+                return $filter('byPriceRange')(hotelsToFilter, sliderValues);
             }
 
+            var getPriceRange = function() {
+                var prices = [],
+                    range = [];
+
+                $scope.hotels.forEach(function(hotel) {
+                    prices.push(hotel.rate.price.per_night);
+                });
+
+                range[0] = prices.reduce(function(a, b) {
+                    return Math.min(a, b);
+                });
+
+                range[1] = prices.reduce(function(a, b) {
+                    return Math.max(a, b);
+                });
+
+                return range;
+            }
+
+            var sliderValues;
 
             $( function() {
+                var priceRange = getPriceRange(),
+                    range = priceRange;
+                sliderValues = priceRange;
+
                 $( "#slider-range" ).slider({
                     range: true,
-                    min: 0,
-                    max: 500,
-                    values: [ 75, 300 ],
+                    min: range[0],
+                    max: range[1],
+                    values: range,
                     slide: function( event, ui ) {
-                    $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+                        $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+                    },
+                    change: function( event, ui ) {
+                        sliderValues[ui.handleIndex] = ui.value;
+                        $scope.applyFilters();
                     }
                 });
                 $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
                     " - $" + $( "#slider-range" ).slider( "values", 1 ) );
             } );
 
-            $scope.$watchCollection('stars', function (checkboxVal, oldCheckboxVal) {
-                console.log(checkboxVal);
+
+            $scope.$watchCollection('stars', function(checkboxVal, oldCheckboxVal) {
                 if (checkboxVal.all && !oldCheckboxVal.all) {
                     $scope.stars.all = true;
                     $scope.stars.five = false;
@@ -68,7 +102,6 @@ app.directive('hotelFilters', [function() {
                     $scope.stars.two = false;
                     $scope.stars.one = false;
                 } else {
-                    console.log('test');
                     if (!checkboxVal.five && !checkboxVal.four && !checkboxVal.three && !checkboxVal.two && !checkboxVal.one) {
                         $scope.stars.all = true;
                     } else if (checkboxVal.five || checkboxVal.four || checkboxVal.three || checkboxVal.two || checkboxVal.one) {
@@ -76,24 +109,6 @@ app.directive('hotelFilters', [function() {
                     }
                 }
             });
-
-            // $scope.manageStarCheckboxes = function(allStars) {
-            //     console.log("change");
-            //     if (allStars) {
-            //         $scope.stars.all = true;
-            //         $scope.stars.five = false;
-            //         $scope.stars.four = false;
-            //         $scope.stars.three = false;
-            //         $scope.stars.two = false;
-            //         $scope.stars.one = false;
-            //     } else {
-            //         if (!$scope.stars.five && !$scope.stars.four && !$scope.stars.three && !$scope.stars.two && !$scope.stars.one) {
-            //             $scope.stars.all = true;
-            //         } else if ($scope.stars.five || $scope.stars.four || $scope.stars.three || $scope.stars.two || $scope.stars.one) {
-            //             $scope.stars.all = false;
-            //         }
-            //     }
-            // }
 
         }]
       };
