@@ -54,7 +54,7 @@ app.directive('hotelFilters', [function() {
                     range = [];
 
                 $scope.hotels.forEach(function(hotel) {
-                    prices.push(hotel.rate.price.per_night);
+                    prices.push(hotel.price);
                 });
 
                 range[0] = prices.reduce(function(a, b) {

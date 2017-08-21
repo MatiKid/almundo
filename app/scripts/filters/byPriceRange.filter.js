@@ -5,7 +5,7 @@ app.filter('byPriceRange', function() {
             max = minMax[1];
 
         hotels.forEach(function(hotel) {
-            if (hotel.rate.price.per_night >= min && hotel.rate.price.per_night <= max) {
+            if (hotel.price >= min && hotel.price <= max) {
                 filtered.push(hotel);
             }
         });

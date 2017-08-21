@@ -1,7 +1,7 @@
 app.factory('hotels', ['$http' ,function($http) {
 
     this.getHotels = function() {
-        return $http.get('scripts/hotels.json');
+        return $http.get('http://localhost:3000/hotels');
     }
 
     return {
