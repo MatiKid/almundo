@@ -17,7 +17,6 @@ app.directive('hotelFilters', [function() {
                 filteredHotels = filterHotelsByPriceRange(filteredHotels);
 
                 $scope.hotels = filteredHotels;
-                console.log($scope.hotels);
             };
 
            var searchHotelByName = function(hotelsToFilter, searchTerm) {

@@ -5,7 +5,6 @@ app.controller('MainCtrl', ['$scope', 'hotels', function($scope, hotels) {
 
     hotels.getHotels()
         .then(function(res) {
-            console.log(res);
             $scope.hotels = res.data;
             $scope.hotelsCache = res.data;
         });

@@ -1,20 +1,27 @@
 <div class="row hotel-card">
     <div class="col-md-4 col-sm-4">
-        <div ng-if="hotel.recommended">¡Hotel recomendado!</div>
-        <img ng-src="{{ hotel.image }}" alt="" class="img-responsive">
+        <div class="hotel-img">  
+            <div ng-if="hotel.recommended" class="hotel-recommended">¡Hotel recomendado!</div>
+            <img ng-src="{{ hotel.image }}" alt="" class="img-responsive">
+        </div>
     </div>
 
     <div class="col-md-5 col-sm-5">
-        <h3>{{ hotel.name }}</h3>
-        <i class="fa fa-star" aria-hidden="true" ng-repeat="star in stars track by $index"></i>
-        <!-- <p ng-if="hotel.meal_plan.code === 'ROOM_ONLY'"><i class="fa fa-bed" aria-hidden="true"></i> Solo habitación</p> -->
-        <i ng-repeat="amenity in hotel.amenities" ng-if="amenitiesIconMap[amenity]" ng-class="'fa ' + amenitiesIconMap[amenity]"></i>
+        <h3 class="hotel-name">{{ hotel.name }}</h3>
+        <div class="hotel-stars">
+            <i class="fa fa-lg fa-star" aria-hidden="true" ng-repeat="star in stars track by $index"></i>
+        </div>
+        <p class="hotel-room-only"><i class="fa fa-lg fa-bed" aria-hidden="true"></i> Solo habitación</p>
+        <!-- <p ng-if="hotel.meal_plan.code === 'ROOM_ONLY'"><i class="fa fa-bed" aria-hidden="true"></i> Solo habitación</p>  -->
+        <div class="hotel-amenities">
+            <i ng-repeat="amenity in hotel.amenities" ng-if="amenitiesIconMap[amenity]" ng-class="'fa fa-lg ' + amenitiesIconMap[amenity]"></i>
+        </div>    
     </div>
 
     <div class="col-md-3 col-sm-3">
-        <small>Precio por noche por habitación</small>
-        <p class="price">ARS {{ hotel.price }}</p>
-        <small>Impuestos y tasas no incluidos</small>
+        <small class="hotel-price-disclaimer text-center">Precio por noche por habitación</small>
+        <p class="price text-center">ARS {{ hotel.price }}</p>
+        <small class="hotel-price-disclaimer text-center">Impuestos y tasas no incluidos</small>
         <button class="btn btn-default view-hotel-btn" href="#">Ver Hotel</button>
         <!-- <p ng-repeat="method in hotel.payment_methods">{{ method.description }}</p> -->
     </div>
