@@ -1,0 +1,155 @@
+[
+    {
+        "_id": "599b3b3b6724f1c415814d14",
+        "name": "PARKROYAL Parramatta",
+        "description": "<p><b>Ubicación del establecimiento</b> <br />PARKROYAL Parramatta está en pleno centro de Parramatta, a pocos pasos de St Patrick's Cathedral y a unos minutos de Parque de Parramatta.  Este hotel de 4,5 estrellas se encuentra muy cerca de Estadio Parramatta y Old Government House.</p><p><b>Habitaciones</b> <br />Te sentirás como en tu propia casa en una de las 286 habitaciones con aire acondicionado, frigorífico y minibar. Las camas cuentan con colchones con una capa de acolchado adicional para descansar plácidamente. Para los momentos de ocio, tienes un televisor con canales por cable y conexión a Internet por cable y wifi gratis. El baño privado con ducha está provisto de artículos de higiene personal gratuitos y secador de pelo.</p><p><b>Servicios</b> <br />Con piscina al aire libre y muchas otras instalaciones recreativas a tu disposición, no te quedará ni un minuto libre. Se ofrece también conexión a Internet wifi gratis y servicio de canguro (de pago). Encontrarás también servicio de celebración de bodas, asistencia turística y para la compra de entradas y acceso gratuito a un gimnasio cercano.</p><p><b>Para comer</b> <br />Si tienes hambre, pasa por el restaurante de este hotel, que ofrece desayunos, almuerzos y cenas o utiliza el servicio de habitaciones las 24 horas. Apaga la sed con tu bebida favorita en el bar o lounge.</p><p><b>Servicios de negocios y otros</b> <br />Tendrás centro de negocios abierto las 24 horas, servicio de limusina o coche con chófer y check-out rápido a tu disposición. Hay un aparcamiento sin asistencia (de pago) disponible.</p>",
+        "image": "//images.almundo.com/201/1000000/10000/2900/2862/243c8aeb_b.jpg",
+        "stars": 4,
+        "price": 3233.91,
+        "__v": 0,
+        "amenities": [
+            "bar",
+            "restaurant",
+            "fitness-center",
+            "parking",
+            "internet"
+        ],
+        "recommended": true
+    },
+    {
+        "_id": "599b3bc56724f1c415814d15",
+        "name": "Seasons Harbour Plaza",
+        "description": "<p><b>Ubicación del establecimiento</b> <br />Alojándote en Seasons Harbour Plaza estarás en pleno corazón de Sídney, a pocos pasos de Sydney Town Hall y de St Andrew’s Cathedral.  Este apartotel de 4 estrellas se encuentra cerca de lugares de interés como: Ópera de Sídney y Puente de la bahía de Sídney.</p><p><b>Habitaciones</b> <br />Reserva una de las 119 habitaciones climatizadas, todas dotadas de cocina básica con frigorífico y placa de cocina. La conexión a Internet wifi (de pago) te permite comunicarte con los tuyos, y en tus ratos libres tendrás un televisor LCD con canales por cable para entretenerte. Las comodidades incluyen caja fuerte, escritorio y teléfono.</p><p><b>Servicios</b> <br />Disfruta de una gran variedad de instalaciones recreativas, entre ellas piscina cubierta, bañera de hidromasaje y sauna. Encontrarás también conexión a Internet wifi (de pago), servicios de conserjería y televisor en zonas comunes.</p><p><b>Para comer</b> <br />En Seasons Harbour Plaza tendrás a tu disposición un restaurante o la posibilidad de tomar algo rápido en la cafetería.</p><p><b>Servicios de negocios y otros</b> <br />Tendrás servicio de tintorería, servicio de recepción 24 horas y depósito de equipaje a tu disposición. Hay un aparcamiento sin asistencia (de pago) disponible.</p>",
+        "image": "//images.almundo.com/201/1000000/430000/426200/426104/426104_76_b.jpg",
+        "stars": 3,
+        "price": 3452.98,
+        "__v": 0,
+        "amenities": [
+            "parking",
+            "restaurant",
+            "fitness-center"
+        ],
+        "recommended": false
+    },
+    {
+        "_id": "599b5c5adf0adfcea5e2d5da",
+        "name": "PARKROYAL Darling Harbour, Sydney",
+        "description": "<p><b>Ubicación del establecimiento</b> <br />En PARKROYAL Darling Harbour, Sydney gozarás de una ubicación céntrica en Sídney, a pocos pasos de Cine IMAX Sydney y de Darling Harbour.  Este hotel de 4,5 estrellas se encuentra cerca de lugares de interés como: Ópera de Sídney y Puente de la bahía de Sídney.</p><p><b>Habitaciones</b> <br />Te sentirás como en tu propia casa en una de las 340 habitaciones con aire acondicionado y minibar. La conexión a Internet wifi gratis te mantendrá en contacto con los tuyos; también podrás ver tu programa favorito en el televisor con canales por cable. El cuarto de baño está provisto de artículos de higiene personal gratuitos y secador de pelo. Las comodidades incluyen caja fuerte, escritorio y teléfono.</p><p><b>Servicios</b> <br />Con gimnasio y muchas otras instalaciones recreativas a tu disposición, no te quedará ni un minuto libre. Se ofrece también conexión a Internet wifi gratis y servicios de conserjería. Se ofrece además servicio de canguro (de pago) y acceso gratuito a un gimnasio cercano.</p><p><b>Para comer</b> <br />Descubre los deliciosos platos de los 3 restaurantes y la cafetería de este hotel. Y si no te apetece salir, puedes llamar al servicio de habitaciones las 24 horas. Apaga la sed con tu bebida favorita en el bar o lounge.</p><p><b>Servicios de negocios y otros</b> <br />Tendrás centro de negocios, check-in rápido y periódicos gratuitos en el vestíbulo a tu disposición. Pagando un pequeño suplemento podrás aprovechar prestaciones como servicio de transporte al aeropuerto (ida y vuelta) a petición y aparcamiento sin asistencia (de pago).</p>",
+        "image": "//images.almundo.com/201/1000000/30000/22600/22576/22576_234_b.jpg",
+        "stars": 3,
+        "price": 3452.98,
+        "__v": 0,
+        "amenities": [
+            "parking",
+            "restaurant",
+            "coffee-shop",
+            "internet",
+            "check-in"
+        ],
+        "recommended": false
+    },
+    {
+        "_id": "599b5d0fdf0adfcea5e2d5db",
+        "name": "St Marks Lodge",
+        "description": "<p><b>Ubicación del establecimiento</b> <br />Si te alojas en St Marks Lodge, en Randwick (Eastern Suburbs), estarás a poca distancia de Playa de Coogee y Bondi Beach.  Este hotel se encuentra cerca de Hipódromo Royal Randwick y de Universidad de Nueva Gales del Sur.</p><p><b>Habitaciones</b> <br />Te sentirás como en tu propia casa en una de las 28 habitaciones con aire acondicionado, frigorífico y televisor de pantalla plana. Mantén el contacto con los tuyos gracias a la conexión a Internet wifi gratis. El cuarto de baño está provisto de ducha y bañera combinadas y artículos de higiene personal gratuitos. Las comodidades incluyen escritorio y cafetera y tetera, además de un servicio de limpieza disponible de forma limitada.</p><p><b>Servicios</b> <br />Con jardín donde descansar y comodidades como conexión a Internet wifi gratis y asistencia turística y para la compra de entradas, ¡no te faltará de nada!</p><p><b>Servicios de negocios y otros</b> <br />Tendrás check-in rápido, check-out rápido y atención multilingüe a tu disposición.</p>",
+        "image": "//images.almundo.com/201/4000000/3200000/3190300/3190224/3190224_38_b.jpg",
+        "stars": 3,
+        "price": 1896.51,
+        "__v": 0,
+        "amenities": [
+            "check-in",
+            "restaurant",
+            "internet"
+        ],
+        "recommended": true
+    },
+    {
+        "_id": "599b5d7fdf0adfcea5e2d5dc",
+        "name": "Abey Hotel",
+        "description": "<p><b>Ubicación del establecimiento</b> <br />Si te alojas en Abey Hotel, en Surry Hills (East Sydney), podrás llegar fácilmente a Museo Judío de Sídney y a Ópera de Sídney.  Este hotel se encuentra cerca de Universidad de Sídney y de Puente de la bahía de Sídney.</p><p><b>Habitaciones</b> <br />Te sentirás como en tu propia casa en una de las 24 habitaciones con aire acondicionado, estación de conexión para iPod y televisor de pantalla plana. La conexión a Internet wifi (de pago) te mantendrá en contacto con los tuyos; también podrás ver tu programa favorito en el televisor con canales por cable. El baño privado con ducha y bañera combinadas está provisto de bañera profunda y artículos de higiene personal gratuitos. Las comodidades incluyen caja fuerte y cafetera y tetera, además de un servicio de limpieza disponible todos los días.</p><p><b>Servicios</b> <br />Aprovecha las instalaciones recreativas, que incluyen piscina cubierta y bañera de hidromasaje. Encontrarás también conexión a Internet wifi gratis y asistencia turística y para la compra de entradas.</p><p><b>Para comer</b> <br />Si tienes hambre, pasa por el restaurante de este hotel, que ofrece desayunos, almuerzos y cenas o utiliza el servicio de habitaciones las 24 horas.</p><p><b>Servicios de negocios y otros</b> <br />Tendrás check-out rápido, periódicos gratuitos en el vestíbulo y servicio de tintorería a tu disposición. Las instalaciones para eventos de este hotel incluyen centro de conferencias y salas de reuniones. Hay un aparcamiento sin asistencia (de pago) disponible.</p>",
+        "image": "//images.almundo.com/201/6000000/5380000/5371400/5371369/5371369_3_b.jpg",
+        "stars": 3,
+        "price": 2014.72,
+        "__v": 0,
+        "amenities": [
+            "check-in",
+            "restaurant",
+            "internet",
+            "parking"
+        ],
+        "recommended": false
+    },
+    {
+        "_id": "599b5dfcdf0adfcea5e2d5dd",
+        "name": "The Village Surry Hills",
+        "description": "<p><b>Ubicación del establecimiento</b> <br />Si te alojas en The Village Surry Hills, en Surry Hills (Darlinghurst - Surry Hills), estarás a pocos minutos de White Rabbit y Universidad de Sídney.  Este albergue se encuentra cerca de Ópera de Sídney y de Puente de la bahía de Sídney.</p><p><b>Habitaciones</b> <br />Te sentirás como en tu propia casa en una de las 42 habitaciones con aire acondicionado. Aprovecha la cocina compartida para preparar tus propias comidas. La conexión a Internet wifi (de pago) te mantendrá en contacto con los tuyos; también podrás ver tu programa favorito en el televisor con canales digitales. El cuarto de baño está provisto de ducha y secador de pelo.</p><p><b>Servicios</b> <br />Aprovecha los prácticos servicios que se te ofrecen, como conexión a Internet wifi (de pago), asistencia turística y para la compra de entradas o área de picnic.</p><p><b>Para comer</b> <br />Se sirve un desayuno gratuito.</p><p><b>Servicios de negocios y otros</b> <br />Tendrás atención multilingüe, depósito de equipaje y lavandería a tu disposición.</p>",
+        "image": "//images.almundo.com/201/10000000/9630000/9629600/9629574/12af2828_b.jpg",
+        "stars": 2,
+        "price": 741.88,
+        "__v": 0,
+        "amenities": [
+            "internet"
+        ],
+        "recommended": true
+    },
+    {
+        "_id": "599b5e4fdf0adfcea5e2d5de",
+        "name": "Central Private Hotel",
+        "description": "<p><b>Ubicación del establecimiento</b> <br />Disfruta de una ubicación céntrica en Surry Hills reservando en Central Private Hotel, a pocos pasos de Railway Square y cerca de Darling Harbour.  Este hotel se encuentra cerca de Teatro Real y de Acuario de Sídney Sea Life.</p><p><b>Habitaciones</b> <br />Te sentirás como en tu propia casa en una de las 30 habitaciones con frigorífico y reproductor de DVD. Se ofrece una conexión a Internet por cable y wifi gratis. Las comodidades incluyen escritorio y cafetera y tetera, además de un servicio de limpieza disponible cada semana.</p><p><b>Servicios</b> <br />Aprovecha los prácticos servicios que se te ofrecen, como conexión a Internet wifi gratis o asistencia turística y para la compra de entradas.</p><p><b>Servicios de negocios y otros</b> <br />Tendrás conexión a Internet de alta velocidad por cable (gratuita), check-out rápido y depósito de equipaje a tu disposición.</p>",
+        "image": "//images.almundo.com/201/10000000/9630000/9629900/9629802/bd1e7795_b.jpg",
+        "stars": 2,
+        "price": 1740.06,
+        "__v": 0,
+        "amenities": [
+            "internet",
+            "bar"
+        ],
+        "recommended": false
+    },
+    {
+        "_id": "599b5ea9df0adfcea5e2d5df",
+        "name": "The Langham, Sydney",
+        "description": "<p><b>Ubicación del establecimiento</b> <br />Alojándote en The Langham, Sydney estarás en pleno corazón de Millers Point, a pocos pasos de Observatorio de Sídney y de St Patrick’s Church.  Este hotel de 5 estrellas se encuentra cerca de lugares de interés como: Puente de la bahía de Sídney y Ópera de Sídney.</p><p><b>Habitaciones</b> <br />Te sentirás como en tu propia casa en una de las 97 habitaciones con aire acondicionado, frigorífico y televisor de pantalla plana. La televisión con canales por cable y estación de conexión para iPod es ideal para entretenerse, y gracias a la conexión a Internet wifi gratis no perderás el contacto con el resto del mundo. El baño privado con bañera y ducha independientes está provisto de bañera profunda y cabezal de ducha tipo lluvia. Las comodidades incluyen caja fuerte (cabe un portátil), escritorio y teléfono.</p><p><b>Servicios</b> <br />Relájate en el spa completo, que ofrece masajes, tratamientos corporales y tratamientos faciales. La diversión está asegurada en este establecimiento, que ofrece piscina cubierta, bañera de hidromasaje y una pista de tenis exterior. Este hotel de estilo eduardiano ofrece además conexión a Internet wifi gratis, servicios de conserjería y tienda de recuerdos o quiosco.</p><p><b>Para comer</b> <br />Podrás comer en el restaurante de este hotel, que cuenta con un bar, o aprovechar el servicio de habitaciones las 24 horas. Apaga la sed con tu bebida favorita en el bar o lounge. Todos los días se sirve un desayuno bufé de pago.</p><p><b>Servicios de negocios y otros</b> <br />Tendrás conexión a Internet de alta velocidad por cable (gratuita), centro de negocios abierto las 24 horas y servicio de limusina o coche con chófer a tu disposición. Las instalaciones para eventos de este hotel incluyen centro de conferencias y salas de reuniones. Hay un aparcamiento limitado disponible.</p>",
+        "image": "//images.almundo.com/201/1000000/20000/14000/13927/13927_252_b.jpg",
+        "stars": 5,
+        "price": 7441.7,
+        "__v": 0,
+        "amenities": [
+            "internet",
+            "bar",
+            "check-in",
+            "parking",
+            "fitness-center"
+        ],
+        "recommended": true
+    },
+    {
+        "_id": "599b5f02df0adfcea5e2d5e0",
+        "name": "Central Perk Backpackers - Hostel",
+        "description": "<p><b>Ubicación del establecimiento</b> <br />En Sídney (Chinatown), a pocos minutos de Teatro Capitol y Metro Theatre se sitúa Central Perk Backpackers - Hostel.  Este albergue se encuentra cerca de Ópera de Sídney y de Universidad de Sídney.</p><p><b>Habitaciones</b> <br />Te sentirás como en tu propia casa en una de las 88 habitaciones. Mantén el contacto con los tuyos gracias a la conexión a Internet wifi gratis.</p><p><b>Servicios</b> <br />Aprovecha los prácticos servicios que se te ofrecen, como conexión a Internet wifi gratis o servicios de conserjería.</p><p><b>Para comer</b> <br />Apaga la sed con tu bebida favorita en el bar o lounge. Se sirve un desayuno gratuito.</p><p><b>Servicios de negocios y otros</b> <br />Tendrás depósito de equipaje y lavandería a tu disposición. Se ofrece servicio de transporte desde el hotel hasta el aeropuerto de pago.</p>",
+        "image": "//images.almundo.com/201/10000000/9630000/9624500/9624434/9624434_12_b.jpg",
+        "stars": 2,
+        "price": 620.49,
+        "__v": 0,
+        "amenities": [
+            "internet",
+            "bar"
+        ],
+        "recommended": false
+    },
+    {
+        "_id": "599b5f48df0adfcea5e2d5e1",
+        "name": "Rydges North Sydney",
+        "description": "<p><b>Ubicación del establecimiento</b> <br />Si te alojas en Rydges North Sydney, en North Sydney (North Shore Sydney), podrás llegar fácilmente a Luna Park y a Puente de la bahía de Sídney.  Este hotel para familias se encuentra cerca de Kirribilli House y de Goat Island.</p><p><b>Habitaciones</b> <br />Te sentirás como en tu propia casa en una de las 167 habitaciones con aire acondicionado, frigorífico y minibar. Mantén el contacto con los tuyos gracias a la conexión a Internet wifi gratis. El cuarto de baño está provisto de ducha y bañera combinadas y secador de pelo. Las comodidades incluyen escritorio, periódicos gratuitos y teléfono.</p><p><b>Servicios</b> <br />Con jardín donde descansar y comodidades como conexión a Internet wifi gratis y servicio de canguro (de pago), ¡no te faltará de nada!</p><p><b>Para comer</b> <br />Si tienes hambre, pasa por el restaurante de este hotel, que ofrece almuerzos o llama al servicio de habitaciones las 24 horas. Apaga la sed con tu bebida favorita en el bar o lounge.</p><p><b>Servicios de negocios y otros</b> <br />Tendrás check-in rápido, check-out rápido y periódicos gratuitos en el vestíbulo a tu disposición. ¿Estás organizando un evento en North Sydney? En este hotel tienes a tu disposición 613 metros cuadrados de espacio con zonas para conferencias y una sala de reuniones. Hay un aparcamiento sin asistencia (de pago) disponible.</p>",
+        "image": "//images.almundo.com/201/1000000/460000/456900/456807/456807_48_b.jpg",
+        "stars": 3,
+        "price": 2444.8,
+        "__v": 0,
+        "amenities": [
+            "internet",
+            "bar",
+            "check-in"
+        ],
+        "recommended": false
+    }
+]

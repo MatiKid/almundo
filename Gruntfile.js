@@ -7,9 +7,7 @@ module.exports = function(grunt) {
         copy: {
             views: {
               files: [
-                {expand: true, cwd: 'app/', src: ['views/**/*.html'], dest: 'dist/'},
-                // REMOVER
-                {expand: true, cwd: 'app/scripts/services/', src: ['*.json'], dest: 'dist/scripts/'},
+                {expand: true, cwd: 'app/', src: ['views/**/*.html'], dest: 'dist/'}
               ],
             },
           },
@@ -131,6 +129,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-include-source');
     grunt.loadNpmTasks('grunt-replace');
     grunt.loadNpmTasks('grunt-bower-concat');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
 
     grunt.registerTask('default', ['build']);
 
