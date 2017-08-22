@@ -6,5 +6,9 @@
     <div class="col-md-8 col-sm-8">
         <hotel-order-by hotels="hotels"></hotel-order-by>
         <hotel-card hotel="hotel" ng-repeat="hotel in hotels"></hotel-card>
+
+        <div ng-if="hotelsError" class="alert alert-danger" role="alert">
+            Los hoteles no pudieron ser cargador. Por favor <a href="#" ng-click="getHotels()">vuelva a intentar.</a>
+        </div>
     </div>
 </div>
